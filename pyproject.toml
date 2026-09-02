@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biocad3d"
+version = "0.1.0"
+description = "Processing and analysis of intraoral scanner 3D data for dental plaque quantification"
+requires-python = ">=3.11"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "matplotlib",
+    "scikit-learn",
+    "scikit-image",
+    "open3d",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
