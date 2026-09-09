@@ -16,6 +16,8 @@ dependencies = [
     "scikit-learn",
     "scikit-image",
     "open3d",
+    "notebook",
+    
 ]
 
 [tool.setuptools.packages.find]
